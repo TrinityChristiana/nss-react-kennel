@@ -25,7 +25,7 @@ class OwnerList extends Component {
 		return (
 			<div className='container-cards'>
 				{this.state.owners.map(owner => (
-					<OwnerCard />
+					<OwnerCard key={owner.id} firstName={owner.firstName} lastName={owner.lastName} phoneNumber={owner.phoneNumber} petName={owner.petName}/>
 				))}
 			</div>
 		);

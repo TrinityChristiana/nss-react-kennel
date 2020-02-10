@@ -3,9 +3,10 @@ import React, { Component } from 'react';
 class LocationCard extends Component {
 	render() {
 		return (
-			<address>
-				500 Puppy Way
-			</address>
+			<div>
+				<p>Checkout our {this.props.branchName} branch</p>
+				<address>{this.props.address}</address>
+			</div>
 		);
 	}
 }

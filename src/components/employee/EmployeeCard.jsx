@@ -2,7 +2,12 @@ import React, { Component } from 'react';
 
 class EmployeeCard extends Component {
 	render() {
-		return <div>Employee of the year: Remle Livy-Neyl Terry</div>;
+		return (
+		<div>
+			<h1>{this.props.firstName} {this.props.lastName}</h1>
+			<p>{this.props.employeeNumber}</p>
+			</div>
+		)
 	}
 }
 
