@@ -1,4 +1,4 @@
-
+[index](https://github.com/TrinityTerry/nss-react-kennel/blob/master/directions/chapter-1-directions.md#index)
 
 # Getting Started with React
 
@@ -229,3 +229,13 @@ img {
 ## Practice
 The Kennel App needs to include locations, owners, and employees. Create static card components for each (`LocationCard.js`, `OwnerCard.js` and `EmployeeCard.js`). This is another example of the Single Responsibility Principle. We should have a component whose sole responsibility is to render the location, or owner, or employee information. Follow the same directory structure and include the components in the JSX for **`Kennel`**.
 
+## Index
+- ### [Getting Started with React](https://github.com/TrinityTerry/nss-react-kennel/blob/master/directions/chapter-1-directions.md#installing-react-developer-tools)
+  - #### [Installing React Developer Tools](https://github.com/TrinityTerry/nss-react-kennel/blob/master/directions/chapter-1-directions.md#installing-react-developer-tools)
+  - #### [Getting Started with create-react-app](https://github.com/TrinityTerry/nss-react-kennel/blob/master/directions/chapter-1-directions.md#getting-started-with-create-react-app)
+    - ##### [Getting Setup](https://github.com/TrinityTerry/nss-react-kennel/blob/master/directions/chapter-1-directions.md#getting-setup)
+  - #### [Getting Started with Components](https://github.com/TrinityTerry/nss-react-kennel/blob/master/directions/chapter-1-directions.md#getting-started-with-components)
+    - ##### [Single Component](https://github.com/TrinityTerry/nss-react-kennel/blob/master/directions/chapter-1-directions.md#single-component)
+    - ##### [Child Component](https://github.com/TrinityTerry/nss-react-kennel/blob/master/directions/chapter-1-directions.md#child-component)
+  - #### [Add some styles to Kennel.css](https://github.com/TrinityTerry/nss-react-kennel/blob/master/directions/chapter-1-directions.md#add-some-styles-to-kennelcss)
+  - #### [Practice](https://github.com/TrinityTerry/nss-react-kennel/blob/master/directions/chapter-1-directions.md#practice)
