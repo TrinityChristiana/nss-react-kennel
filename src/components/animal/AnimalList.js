@@ -3,12 +3,13 @@ import React, { Component } from 'react';
 import AnimalCard from './AnimalCard';
 import AnimalManager from '../../modules/AnimalManager';
 
-
 class AnimalList extends Component {
-	//define what this component needs to render
-	state = {
-		animals: []
-	};
+	constructor(props) {
+		super(props);
+		this.state = {
+			animals: []
+		};
+	}
 
 	componentDidMount() {
 		console.log('ANIMAL LIST: ComponentDidMount');
@@ -20,13 +21,27 @@ class AnimalList extends Component {
 		});
 	}
 
+	deleteAnimal = id => {
+		AnimalManager.delete(id).then(() => {
+			AnimalManager.getAll().then(newAnimals => {
+				this.setState({
+					animals: newAnimals
+				});
+			});
+		});
+	}
+
 	render() {
 		console.log('AnimalList: Render');
 
 		return (
 			<div className='container-cards'>
 				{this.state.animals.map(animal => (
-					<AnimalCard key={animal.id} animal={animal} />
+					<AnimalCard
+						key={animal.id}
+						animal={animal}
+						deleteAnimal={this.deleteAnimal}
+					/>
 				))}
 			</div>
 		);
