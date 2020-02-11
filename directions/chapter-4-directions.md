@@ -147,5 +147,11 @@ To change `state`, you _must_ use `this.setState()`, and that method, in turn, i
 
 Update your application so that each section (locations, employees, owners) displays a list of cards with the API data.
 
-
+## Index
+- ### [React Component State and Props](https://github.com/TrinityTerry/nss-react-kennel/blob/master/directions/chapter-4-directions.md#react-component-state-and-props)
+  - #### [State in React Applications](https://github.com/TrinityTerry/nss-react-kennel/blob/master/directions/chapter-4-directions.md#state-in-react-applications)
+  - #### [A Few Rules for state and props](https://github.com/TrinityTerry/nss-react-kennel/blob/master/directions/chapter-4-directions.md#a-few-rules-for-state-and-props)
+  - #### [Passing State to a Child Component](https://github.com/TrinityTerry/nss-react-kennel/blob/master/directions/chapter-4-directions.md#passing-state-to-a-child-component)
+  - #### [Expressing State as HTML](https://github.com/TrinityTerry/nss-react-kennel/blob/master/directions/chapter-4-directions.md#expressing-state-as-html)
+  - #### [Practice Exercise - Displaying Data](https://github.com/TrinityTerry/nss-react-kennel/blob/master/directions/chapter-4-directions.md#practice-exercise---displaying-data)
 
