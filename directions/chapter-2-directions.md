@@ -244,3 +244,14 @@ Once all of this is in place, you will have the base of a single page applicatio
 
 1. Create links in your navigation bar for `/locations`, `/employees`, and `/owners` paths.
 1. Have each route render the respective component.
+
+## Index
+  - ### [Routing in React Applications](https://github.com/TrinityTerry/nss-react-kennel/blob/master/directions/chapter-2-directions.md#routing-in-react-applications)
+    - #### [Setup](https://github.com/TrinityTerry/nss-react-kennel/blob/master/directions/chapter-2-directions.md#setup)
+    - #### [Making Your Components](https://github.com/TrinityTerry/nss-react-kennel/blob/master/directions/chapter-2-directions.md#making-your-components)
+      - ##### [Home Component](https://github.com/TrinityTerry/nss-react-kennel/blob/master/directions/chapter-2-directions.md#home-component)
+      - ##### [NavBar Component](https://github.com/TrinityTerry/nss-react-kennel/blob/master/directions/chapter-2-directions.md#navbar-component)
+      - ##### [ApplicationViews - includes the Kennel application routes](https://github.com/TrinityTerry/nss-react-kennel/blob/master/directions/chapter-2-directions.md#applicationviews---includes-the-kennel-application-routes)
+      - ##### [Updating the Kennel Component](https://github.com/TrinityTerry/nss-react-kennel/blob/master/directions/chapter-2-directions.md#updating-the-kennel-component)
+    - #### [Resources](https://github.com/TrinityTerry/nss-react-kennel/blob/master/directions/chapter-2-directions.md#resources)
+    - #### [Practice: Kennel Routes](https://github.com/TrinityTerry/nss-react-kennel/blob/master/directions/chapter-2-directions.md#practice-kennel-routes)

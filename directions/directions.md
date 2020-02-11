@@ -1,21 +1,37 @@
 # Directions Index
 ## [Chapter 1: React Basics](chapter-1-directions.md)
-- ### Getting Started with React
-    -[index](https://github.com/TrinityTerry/nss-react-kennel/blob/master/directions/chapter-1-directions.md#index)
-## [Chapter 2: React Basics](chapter-2-directions.md)
-## [Chapter 3: React Basics](chapter-3-directions.md)
-## [Chapter 4: React Basics](chapter-4-directions.md)
-## [Chapter 5: React Basics](chapter-5-directions.md)
-## [Chapter 6: React Basics](chapter-6-directions.md)
-## [Chapter 7: React Basics](chapter-7-directions.md)
-## [Chapter 8: React Basics](chapter-8-directions.md)
-## [Chapter 9: React Basics](chapter-9-directions.md)
-## [Chapter 10: React Basics](chapter-10-directions.md)
-## [Chapter 11: React Basics](chapter-11-directions.md)
-## [Chapter 12: React Basics](chapter-12-directions.md)
-## [Chapter 13: React Basics](chapter-13-directions.md)
-## [Chapter 14: React Basics](chapter-14-directions.md)
-## [Chapter 15: React Basics](chapter-15-directions.md)
-## [Chapter 16: React Basics](chapter-16-directions.md)
-## [Chapter 17: React Basics](chapter-17-directions.md)
-## [Chapter 18: React Basics](chapter-18-directions.md)
+- ### Getting Started with React [(index)](https://github.com/TrinityTerry/nss-react-kennel/blob/master/directions/chapter-1-directions.md#index)
+## [Chapter 2: React Routing](chapter-2-directions.md)
+- ### [(index)](https://github.com/TrinityTerry/nss-react-kennel/blob/master/directions/chapter-2-directions.md#index)
+## [Chapter 3: ](chapter-3-directions.md)
+- ### [(index)]()
+## [Chapter 4: ](chapter-4-directions.md)
+- ### [(index)]()
+<!-- ## [Chapter 5: ](chapter-5-directions.md)
+- ### [(index)]() -->
+<!-- ## [Chapter 6: ](chapter-6-directions.md)
+- ### [(index)]() -->
+<!-- ## [Chapter 7: ](chapter-7-directions.md)
+- ### [(index)]() -->
+<!-- ## [Chapter 8: ](chapter-8-directions.md)
+- ### [(index)]() -->
+<!-- ## [Chapter 9: ](chapter-9-directions.md)
+- ### [(index)]() -->
+<!-- ## [Chapter 10: ](chapter-10-directions.md)
+- ### [(index)]() -->
+<!-- ## [Chapter 11: ](chapter-11-directions.md)
+- ### [(index)]() -->
+<!-- ## [Chapter 12: ](chapter-12-directions.md)
+- ### [(index)]() -->
+<!-- ## [Chapter 13: ](chapter-13-directions.md)
+- ### [(index)]() -->
+<!-- ## [Chapter 14: ](chapter-14-directions.md)
+- ### [(index)]() -->
+<!-- ## [Chapter 15: ](chapter-15-directions.md)
+- ### [(index)]() -->
+<!-- ## [Chapter 16: ](chapter-16-directions.md)
+- ### [(index)]() -->
+<!-- ## [Chapter 17: ](chapter-17-directions.md)
+- ### [(index)]() -->
+<!-- ## [Chapter 18: ](chapter-18-directions.md)
+- ### [(index)]() -->
