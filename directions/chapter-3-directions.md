@@ -202,7 +202,7 @@ The `componentDidMount()` lifecycle hook runs after the component output has bee
 ## Index
 - ### [Load Data from an API and initial State](https://github.com/TrinityTerry/nss-react-kennel/blob/master/directions/chapter-3-directions.md#load-data-from-an-api-and-initial-state)
     - #### [Populate the API](https://github.com/TrinityTerry/nss-react-kennel/blob/master/directions/chapter-3-directions.md#populate-the-api)
-    - #### [Thinking in React and Querying Data from the API(https://github.com/TrinityTerry/nss-react-kennel/blob/master/directions/chapter-3-directions.md#thinking-in-react-and-querying-data-from-the-api)
+    - #### [Thinking in React and Querying Data from the API](https://github.com/TrinityTerry/nss-react-kennel/blob/master/directions/chapter-3-directions.md#thinking-in-react-and-querying-data-from-the-api)
     - #### [Querying the Data](https://github.com/TrinityTerry/nss-react-kennel/blob/master/directions/chapter-3-directions.md#querying-the-data)
     - #### [Setup](https://github.com/TrinityTerry/nss-react-kennel/blob/master/directions/chapter-3-directions.md#setup)
     - #### [Single Responsibility Principle](https://github.com/TrinityTerry/nss-react-kennel/blob/master/directions/chapter-3-directions.md#single-responsibility-principle)
