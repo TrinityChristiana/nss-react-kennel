@@ -1,6 +1,11 @@
 {
   "animals": [
     {
+      "id": 1,
+      "name": "Doodles",
+      "breed": "Poodle"
+    },
+    {
       "id": 2,
       "name": "Decker",
       "breed": "German Sheperd"
@@ -11,7 +16,20 @@
       "breed": "Pitbull"
     }
   ],
-  "employees": [],
+  "employees": [
+    {
+      "id": 1,
+      "firstName": "Daisy",
+      "lastName": "Harper",
+      "employeeNumber": "990-30-9864"
+    },
+    {
+      "id": 2,
+      "firstName": "Arnold",
+      "lastName": "Kennedy",
+      "employeeNumber": "599-84-6446"
+    }
+  ],
   "owners": [
     {
       "id": 1,
