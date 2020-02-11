@@ -6,6 +6,11 @@ class LocationCard extends Component {
 			<div>
 				<p>Checkout our {this.props.branchName} branch</p>
 				<address>{this.props.address}</address>
+				<button
+					type='button'
+					onClick={() => this.props.closeLocation(this.props.id)}>
+					Close
+				</button>
 			</div>
 		);
 	}
