@@ -2,9 +2,9 @@
 ## [Chapter 1: React Basics](chapter-1-directions.md)
 - ### Getting Started with React [(index)](https://github.com/TrinityTerry/nss-react-kennel/blob/master/directions/chapter-1-directions.md#index)
 ## [Chapter 2: React Routing](chapter-2-directions.md)
-- ### Routing in React Applications[(index)](https://github.com/TrinityTerry/nss-react-kennel/blob/master/directions/chapter-2-directions.md#index)
-<!-- ## [Chapter 3: ](chapter-3-directions.md)
-- ### [(index)]() -->
+- ### Routing in React Applications [(index)](https://github.com/TrinityTerry/nss-react-kennel/blob/master/directions/chapter-2-directions.md#index)
+## [Chapter 3: Loading Data](chapter-3-directions.md)
+- ### Load Data from an API and initial State [(index)](https://github.com/TrinityTerry/nss-react-kennel/blob/master/directions/chapter-2-directions.md#index)
 <!-- ## [Chapter 4: ](chapter-4-directions.md)
 - ### [(index)]() -->
 <!-- ## [Chapter 5: ](chapter-5-directions.md)

@@ -3,7 +3,7 @@
 At this point, you have a static application. Now it's time to implement realistic data. You will request it from your JSON API database.
 
 
-## Populate the API
+# Populate the API
 
 You are going to use `json-server` to create an API for your kennel application.
 
@@ -199,5 +199,16 @@ The `componentDidMount()` lifecycle hook runs after the component output has bee
 
 ![](./images/eB9CCcrUHy.gif)
 
+## Index
+- ### [Load Data from an API and initial State](https://github.com/TrinityTerry/nss-react-kennel/blob/master/directions/chapter-3-directions.md#load-data-from-an-api-and-initial-state)
+    - #### [Populate the API](https://github.com/TrinityTerry/nss-react-kennel/blob/master/directions/chapter-3-directions.md#populate-the-api)
+    - #### [Thinking in React and Querying Data from the API]https://github.com/TrinityTerry/nss-react-kennel/blob/master/directions/chapter-3-directions.md#thinking-in-react-and-querying-data-from-the-api)
+    - #### [Querying the Data](https://github.com/TrinityTerry/nss-react-kennel/blob/master/directions/chapter-3-directions.md#querying-the-data)
+    - #### [Setup](https://github.com/TrinityTerry/nss-react-kennel/blob/master/directions/chapter-3-directions.md#setup)
+    - #### [Single Responsibility Principle](https://github.com/TrinityTerry/nss-react-kennel/blob/master/directions/chapter-3-directions.md#single-responsibility-principle)
+    - #### [What is State?](https://github.com/TrinityTerry/nss-react-kennel/blob/master/directions/chapter-3-directions.md#what-is-state)
+    - #### [Component LifeCycle](https://github.com/TrinityTerry/nss-react-kennel/blob/master/directions/chapter-3-directions.md#component-lifecycle)
+    - #### [Resources](https://github.com/TrinityTerry/nss-react-kennel/blob/master/directions/chapter-3-directions.md#resources)
+    - #### [Practice - NSS Kennels API](https://github.com/TrinityTerry/nss-react-kennel/blob/master/directions/chapter-3-directions.md#practice---nss-kennels-api)
 
 
