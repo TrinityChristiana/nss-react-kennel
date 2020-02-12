@@ -31,6 +31,7 @@ class ApplicationViews extends Component {
 						return (
 							<AnimalDetail
 								animalId={parseInt(props.match.params.animalId)}
+								{...props}
 							/>
 						);
 					}}

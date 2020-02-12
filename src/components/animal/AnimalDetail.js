@@ -7,7 +7,8 @@ class AnimalDetail extends Component {
 		super(props);
 		this.state = {
 			name: '',
-			breed: ''
+			breed: '',
+			loadingStatus: true
 		};
 	}
 
@@ -48,6 +49,12 @@ class AnimalDetail extends Component {
 						</span>
 					</h3>
 					<p>Breed: {this.state.breed}</p>
+					<button
+						type='button'
+						disabled={this.state.loadingStatus}
+						onClick={this.handleDelete}>
+						Discharge
+					</button>
 				</div>
 			</div>
 		);
