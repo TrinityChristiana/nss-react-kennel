@@ -6,6 +6,7 @@ import AnimalList from './animal/AnimalList';
 import LocationList from './location/LocationList';
 import EmployeeList from './employee/EmployeeList';
 import OwnerList from './owner/OwnerList';
+import AnimalDetail from './animal/AnimalDetail'
 
 class ApplicationViews extends Component {
 	render() {
@@ -24,19 +25,29 @@ class ApplicationViews extends Component {
 						return <AnimalList />;
 					}}
 				/>
-                <Route
+				<Route
+					path='/animals/:animalId'
+					render={props => {
+						return (
+							<AnimalDetail
+								animalId={parseInt(props.match.params.animalId)}
+							/>
+						);
+					}}
+				/>
+				<Route
 					path='/location'
 					render={props => {
 						return <LocationList />;
 					}}
 				/>
-                <Route
+				<Route
 					path='/employee'
 					render={props => {
 						return <EmployeeList />;
 					}}
 				/>
-                <Route
+				<Route
 					path='/owner'
 					render={props => {
 						return <OwnerList />;
