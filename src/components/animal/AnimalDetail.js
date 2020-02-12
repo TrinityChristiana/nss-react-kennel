@@ -14,12 +14,13 @@ class AnimalDetail extends Component {
 
 	componentDidMount() {
 		console.log('AnimalDetail: ComponentDidMount');
-		console.log(this.props.animalId);
 		//get(id) from AnimalManager and hang on to the data; put it into state
 		AnimalManager.get(this.props.animalId).then(animal => {
 			this.setState({
 				name: animal.name,
-				breed: animal.breed
+				breed: animal.breed,
+				loadingStatus: false
+
 			});
 		});
 	}
@@ -29,7 +30,9 @@ class AnimalDetail extends Component {
 			AnimalManager.get(this.props.animalId).then(animal => {
 				this.setState({
 					name: animal.name,
-					breed: animal.breed
+					breed: animal.breed,
+					loadingStatus: false
+
 				});
 			});
 		}
