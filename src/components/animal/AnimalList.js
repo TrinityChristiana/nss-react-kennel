@@ -11,6 +11,17 @@ class AnimalList extends Component {
 		};
 	}
 
+	componentDidUpdate(prevProps, prevState, snapshot) {
+		if (this.props.loadingStatus !== prevProps.loadingStatus) {
+			console.log(this.props.loadingStatus, prevProps.loadingStatus)
+			AnimalManager.getAll().then(animals => {
+				this.setState({
+					animals: animals
+				});
+			});
+		}
+	}
+
 	componentDidMount() {
 		console.log('ANIMAL LIST: ComponentDidMount');
 		//getAll from AnimalManager and hang on to that data; put it in state

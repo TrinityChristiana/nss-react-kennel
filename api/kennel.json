@@ -2,8 +2,23 @@
   "animals": [
     {
       "id": 1,
-      "name": "Doodles",
+      "name": "Diego",
       "breed": "Poodle"
+    },
+    {
+      "id": 4,
+      "name": "Arthor",
+      "breed": "Bulldog"
+    },
+    {
+      "id": 3,
+      "name": "Esme",
+      "breed": "Pitbull"
+    },
+    {
+      "id": 5,
+      "name": "Luna",
+      "breed": "Havanese"
     }
   ],
   "employees": [
@@ -38,28 +53,28 @@
       "firstName": "Perry",
       "lastName": "Reeves",
       "phoneNumber": "822-101-9662",
-      "petName": "Doodles"
+      "petName": "Diego"
     },
     {
       "id": 2,
       "firstName": "Mack",
       "lastName": "Vega",
       "phoneNumber": "119-263-0904",
-      "petName": "Esme"
+      "petName": "Luna"
     },
     {
       "id": 3,
       "firstName": "Arthur",
       "lastName": "Kim",
       "phoneNumber": "328-522-6562",
-      "petName": "Doodles"
+      "petName": "Arthor"
     },
     {
       "id": 4,
       "firstName": "Belinda",
       "lastName": "Waters",
       "phoneNumber": "715-862-1105",
-      "petName": "Decker"
+      "petName": "Skeeter"
     },
     {
       "id": 5,
@@ -73,7 +88,7 @@
       "firstName": "Lucy",
       "lastName": "Leonard",
       "phoneNumber": "160-393-4837",
-      "petName": "Doodles"
+      "petName": "Diego"
     }
   ],
   "locations": [

@@ -3,27 +3,33 @@ import AnimalManager from '../../modules/AnimalManager';
 import './AnimalDetail.css';
 
 class AnimalDetail extends Component {
-	constructor(props) {
-		super(props);
-		this.state = {
-			name: '',
-			breed: '',
-			loadingStatus: true
-		};
-	}
+	state = {
+		name: '',
+		breed: '',
+	};
 
 	componentDidMount() {
 		console.log('AnimalDetail: ComponentDidMount');
-		//get(id) from AnimalManager and hang on to the data; put it into state
+		//get(id) from AnimalManager and hang on to that data; put it into state
 		AnimalManager.get(this.props.animalId).then(animal => {
 			this.setState({
 				name: animal.name,
 				breed: animal.breed,
-				loadingStatus: false
-
 			});
+			this.props.changeloading();
 		});
 	}
+
+	handleDelete = () => {
+		console.log('clicked');
+		//invoke the delete function in AnimalManger and re-direct to the animal list.
+		this.props.changeloading();
+		AnimalManager.delete(this.props.animalId).then(() =>
+			this.props.history.push('/animals')
+		);
+
+		this.props.changeloading();
+	};
 
 	componentDidUpdate(prevProps, prevState, snapshot) {
 		if (this.props.animalId !== prevProps.animalId) {
@@ -31,14 +37,13 @@ class AnimalDetail extends Component {
 				this.setState({
 					name: animal.name,
 					breed: animal.breed,
-					loadingStatus: false
-
 				});
 			});
 		}
 	}
 
 	render() {
+		console.log(this.props.loadingStatus);
 		return (
 			<div className='card'>
 				<div className='card-content'>
@@ -54,7 +59,7 @@ class AnimalDetail extends Component {
 					<p>Breed: {this.state.breed}</p>
 					<button
 						type='button'
-						disabled={this.state.loadingStatus}
+						disabled={this.props.loadingStatus}
 						onClick={this.handleDelete}>
 						Discharge
 					</button>
